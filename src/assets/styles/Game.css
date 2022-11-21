@@ -1,0 +1,74 @@
+.App {
+    max-width: 800px;
+    display: grid;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0 auto;
+  }
+
+.title h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.title p {
+  font-size: 1.5rem;
+}
+
+.hangman {
+  display: flex;
+}
+
+.hangman p {
+  margin: auto;
+  font-size: 2rem;
+}
+
+.hangman span {
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.end-game {
+  margin: auto;
+  width: 50%;
+}
+
+.end-game p {
+  text-align: left;
+  padding-bottom: 2rem;
+}
+
+.end-game button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  padding: 0 3.5rem;
+  height: 3rem;
+  line-height: 3rem;
+  border-radius: 0.5rem;
+  background-color: #0070f3;
+  color: white;
+  font-weight: 400;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+  transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
+  }
+
+.end-game button:hover {
+  background: rgba(0,118,255,0.9);
+  box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+}
+
+.end-game span {
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#win {
+  color: green;
+}
+
